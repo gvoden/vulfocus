@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3.12.0a5-slim
 LABEL maintainer="Prometheus <99234@qq.com>" version="0.3.2.11" description="Vulfocus for Docker"
 EXPOSE 80
 RUN mkdir /vulfocus-api/
