@@ -1,4 +1,4 @@
-FROM python:3.7-alpine3.15
+FROM python:3.12.0a5-slim
 LABEL maintainer="vulfocus" version="0.3.2.11" description="Vulfocus for Docker"
 
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositories
